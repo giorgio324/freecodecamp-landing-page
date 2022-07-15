@@ -64,6 +64,7 @@ body {
     z-index: 2;
     background: lightgray;
     height: 150px;
+    border-bottom: 0.1rem solid black;
 }
 
 .image_container {
@@ -104,10 +105,6 @@ body {
     font-size: 1.22rem;
 }
 
-.break {
-    height: 0.2rem;
-    background: linear-gradient(var(--clr-primary-1), rgba(47, 9, 199, 0.2), var(--clr-primary-1));
-}
 
 .sign_up {
     display: flex;
